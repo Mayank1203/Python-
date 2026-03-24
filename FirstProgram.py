@@ -23,7 +23,7 @@ print(a%b)
 print(a**b)
 '''
 
-
+'''
 # Relational Operator
 
 a = 30
@@ -33,3 +33,15 @@ print(a==b)
 print(a!=b)
 print(a>=b)
 print(a<=b)
+
+'''
+
+# Assignment Operator
+
+num = 10 
+num += 15
+
+print(num)
+
+num*=3
+print(num)
