@@ -67,7 +67,7 @@ print("or operator : " , val3 or val4)
 
 '''
 
-
+'''
 # Type Casting
 
 s = int("1")
@@ -78,5 +78,12 @@ print(s+t)
 a = 3.14
 a = str(a)
 print(type(a))
+'''
 
+# Input
 
+age = input("Enter your age : ")
+print(type(age) , age)
+
+val1 = int(input("Enter val1 : "))
+print(type(val1) , val1)
