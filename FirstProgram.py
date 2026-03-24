@@ -36,6 +36,7 @@ print(a<=b)
 
 '''
 
+'''
 # Assignment Operator
 
 num = 10 
@@ -45,3 +46,24 @@ print(num)
 
 num*=3
 print(num)
+
+'''
+
+# Logical Operator
+
+a = 1
+b = 5
+print(not False)
+print(not(a<b))
+
+val1 = True
+val2 = True
+print("and operator : " , val1 and val2)
+
+val3 = True
+val4 = False
+print("and operator : " , val3 and val4)
+print("or operator : " , val3 or val4)
+
+
+
