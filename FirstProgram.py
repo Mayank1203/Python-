@@ -48,7 +48,7 @@ num*=3
 print(num)
 
 '''
-
+'''
 # Logical Operator
 
 a = 1
@@ -65,5 +65,18 @@ val4 = False
 print("and operator : " , val3 and val4)
 print("or operator : " , val3 or val4)
 
+'''
+
+
+# Type Casting
+
+s = int("1")
+t = 2.45
+print(type(s))
+print(s+t)
+
+a = 3.14
+a = str(a)
+print(type(a))
 
 
