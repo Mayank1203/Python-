@@ -80,6 +80,7 @@ a = str(a)
 print(type(a))
 '''
 
+'''
 # Input
 
 age = input("Enter your age : ")
@@ -87,3 +88,4 @@ print(type(age) , age)
 
 val1 = int(input("Enter val1 : "))
 print(type(val1) , val1)
+'''
