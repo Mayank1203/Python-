@@ -23,7 +23,17 @@ finalStr = str1 + " " + str2 # concatenation
 print(len(finalStr) , finalStr)
 '''
 
+'''
 str = "asdf ghjkl"
 print(str[5]) # Indexing
 print(str[2])
 print(str[9])
+'''
+
+str = "Apna College"
+print(str[2:7]) # Slicing (ending not included)
+print(str[2:]) # 2-11
+print(str[:7]) # 0-7
+
+str1 = "apple"
+print(str1[-3:-1]) # Negative Slicing 
