@@ -12,6 +12,7 @@ print(str4)
 
 '''
 
+'''
 str1 = "Apna"
 print(len(str1) , str1)
 
@@ -20,3 +21,9 @@ print(len(str2) , str2)
 
 finalStr = str1 + " " + str2 # concatenation 
 print(len(finalStr) , finalStr)
+'''
+
+str = "asdf ghjkl"
+print(str[5]) # Indexing
+print(str[2])
+print(str[9])
