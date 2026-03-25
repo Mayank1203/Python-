@@ -13,8 +13,20 @@ side = float(input("Enter side of Square : "))
 print("Area of Square : " , side*side)
 '''
 
+'''
 # WAP to input user's first name & print its length
 name = input("Enter your name :")
 print("length of name : " , len(name))
 print(name.find('e'))
 print(name.count('e'))
+
+'''
+
+# WAP to check if a number entered ny the user is odd or even 
+
+num = int(input("enter number to check : "))
+
+if(num % 2 == 0):
+    print("number is even")
+else:
+    print("number is odd")

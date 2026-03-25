@@ -50,6 +50,7 @@ print(str.count('i'))# counts the occurrence of sub string
 
 '''
 
+'''
 age = 34 
 
 if(age>=18):
@@ -65,4 +66,6 @@ elif(signal == "yellow"):
     print("you have to wait")
 else:
     print("stop")
+'''
+
 
