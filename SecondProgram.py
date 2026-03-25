@@ -30,6 +30,7 @@ print(str[2])
 print(str[9])
 '''
 
+'''
 str = "Apna College"
 print(str[2:7]) # Slicing (ending not included)
 print(str[2:]) # 2-11
@@ -37,3 +38,11 @@ print(str[:7]) # 0-7
 
 str1 = "apple"
 print(str1[-3:-1]) # Negative Slicing 
+'''
+
+str = "i am a coder."
+print(str.endswith("er.")) # return true if string ends with sub-string
+print(str.capitalize())# capitalize 1st char
+print(str.replace("a" , "the"))# replace all occurances of old to new 
+print(str.find("c")) # return 1st index of 1st occurrer
+print(str.count('i'))# counts the occurrence of sub string
