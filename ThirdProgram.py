@@ -17,7 +17,7 @@ print(len(nums))
 print(nums[1:4])#Slicing(ending index excluded)
 '''
 
-
+'''
 #List Methods 
 list = ['w' , 'd' , 's','f','c','k']
 list.append('x') # adds one element at the end
@@ -41,5 +41,16 @@ print(list)
 list.pop(5) #remove element of particular index
 print(list)
 
+'''
 
+
+# tuples
+
+tup = {1,2,3,4,3,2}
+print(tup)
+print(len(tup))
+
+#Methods in tuples
+print(tup.index(3)) # return index of first occurence
+print(tup.count(2)) #counts total occurrences
 
