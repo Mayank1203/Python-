@@ -27,6 +27,7 @@ print(EmptyDict)
 
 '''
 
+'''
 student = {
     "name" : "rahul kumar",
     "subjects" : {
@@ -52,3 +53,14 @@ new_dict = {"name" : "neha kumar" , "age" : 16}
 student.update(new_dict) # update existing dictionay
 
 print(student)
+
+'''
+
+
+# Set in PYTHON 
+
+collections = {1,2,3,4} # Set must be unique & immutable 
+sett1 = {1,2,2,2} # repeated elements storedonly once so it resolve to {1,2}
+
+print(collections)
+print(sett1)
