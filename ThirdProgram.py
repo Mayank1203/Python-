@@ -43,7 +43,7 @@ print(list)
 
 '''
 
-
+'''
 # tuples
 
 tup = {1,2,3,4,3,2}
@@ -53,4 +53,7 @@ print(len(tup))
 #Methods in tuples
 print(tup.index(3)) # return index of first occurence
 print(tup.count(2)) #counts total occurrences
+
+'''
+
 
