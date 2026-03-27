@@ -1,3 +1,4 @@
+'''
 # info = {
 #     "name" : "Raja",
 #     "subjects" : ["python" , "Java"],
@@ -8,16 +9,34 @@
 
 # print(info)
 # print(type(info))
+'''
 
+'''
 # info["name"] = "gghjdfl" # change in name 
 # print(info["name"]) # Accessing values ny providing keys
 # print(info["subjects"])
 # print(info["topics"])
-
+'''
+'''
 EmptyDict = {
 }
 
 print(EmptyDict)
 EmptyDict["name"] = "Hello"
 print(EmptyDict)
+
+'''
+
+student = {
+    "name" : "rahul kumar",
+    "subjects" : {
+        "phy" : 97 ,
+        "chem" : 98 ,
+        "math" : 95
+    }
+}
+
+print(student)
+print(student["subjects"])
+print(student["subjects"]["math"])
 
