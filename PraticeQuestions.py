@@ -123,5 +123,24 @@ print(dict)
 # for i in range(1,11,1):
 #     print(n*i)
 
+# WAP to find sum of n number using while loop
+
+n = int(input("enter the number n : "))
+sum = 0
+i = 1
+while(i<=n):
+    sum += i 
+    i+=1
+print(sum)
+
+# WAP to find the factorial of first n numbers 
+
+n = int(input("enter the number n : "))
+factorial = 1 
+for i in range(1 , n+1):
+    factorial *= i
+else:
+    print(factorial)
+
 
 

@@ -46,9 +46,9 @@
 
 # Pass statement 
 
-for i in range(10):
-    pass # pass is a null statement that does nothing. It is used as a placeholder for future code.
+# for i in range(10):
+#     pass # pass is a null statement that does nothing. It is used as a placeholder for future code.
 
-print("not yet")
+# print("not yet")
 
 
