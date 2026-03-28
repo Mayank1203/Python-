@@ -33,7 +33,7 @@ else:
     print("number is odd")
 
 '''
-
+'''
 # WAP to store some words in dictionary
 
 dict = {
@@ -44,3 +44,57 @@ dict = {
 }
 
 print(dict)
+'''
+
+# print number from 1 to 100 
+
+# i = 1
+
+# while i<=100:
+#     print(i)
+#     i+=1
+
+# print number from 100 to 1
+
+# j = 100 
+
+# while j>=1 :
+#     print(j)
+#     j-=1
+
+# print the multiplication table of number n
+# n = int(input("Enter number : "))
+
+# i = 1 
+
+# while i<=10 :
+#     print(i*n)
+#     i+=1
+
+
+# print the element of list using the loop
+
+# list = [1,4,9,16,25,36,49,64,81,100]
+# i = 0
+
+# while(i<len(list)):
+#     print(list[i])
+#     i+=1
+
+# search for number x in tuple :
+tup = (1,4,9,16,25,36,49,64,81,100)
+
+x = int(input("Enter your number : "))
+i = 1
+
+while(i<len(tup)):
+    if(x == tup[i]):
+        print("element obtained at index : " , i)
+    i+=1
+
+print("end of loop")
+
+
+
+
+
