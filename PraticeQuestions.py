@@ -97,21 +97,31 @@ print(dict)
 
 #WAP to print the elements of list using for loop
 
-list = [1,4,9,16,25]
+# list = [1,4,9,16,25]
 
-for i in list :
-    print(i)
+# for i in list :
+#     print(i)
 
 # search for number x in tuple using for loop
 
-tup = (1,4,9,16,25,36,49,64,81,100)
+# 
 
-x = int(input("enter number you want to search : "))
+# WAP to print 1 to 100 with for & range function 
 
-for i in tup :
-    if(i == x):
-        print("number found")
-        break
-else:
-    print("entered number is not present")
+for i in range(1,101,1):
+    print(i)
+
+# WAP to print 100 to 1 with for & range function 
+
+for i in range(100,0,-1):    
+    print(i)
+
+# WAP to print multiplication table of number n 
+
+n = int(input("enter number : "))
+
+for i in range(1,11,1):
+    print(n*i)
+
+
 
