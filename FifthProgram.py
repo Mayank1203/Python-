@@ -35,13 +35,20 @@
 
 # range(starting , ending , stepsize) ending point is not included 
 
-for val in range(10):
-    print(val)
+# for val in range(10):
+#     print(val)
 
-for i in range(2,20):
-    print(i)
+# for i in range(2,20):
+#     print(i)
 
-for t in range(3,30,3):
-    print(t)
+# for t in range(3,30,3):
+#     print(t)
+
+# Pass statement 
+
+for i in range(10):
+    pass # pass is a null statement that does nothing. It is used as a placeholder for future code.
+
+print("not yet")
 
 
