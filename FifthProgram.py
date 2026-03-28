@@ -21,17 +21,27 @@
 
 # For loop Implemetation 
 
-nums = [1,2,3,4,5,6,7]
+# nums = [1,2,3,4,5,6,7]
 
-for val in nums :
+# for val in nums :
+#     print(val)
+# else:
+#     print("END")
+
+# str = "hjsghegiudjgsbdiuksd"
+
+# for ch in str :
+#     print(ch)
+
+# range(starting , ending , stepsize) ending point is not included 
+
+for val in range(10):
     print(val)
-else:
-    print("END")
 
-str = "hjsghegiudjgsbdiuksd"
+for i in range(2,20):
+    print(i)
 
-for ch in str :
-    print(ch)
-
+for t in range(3,30,3):
+    print(t)
 
 
