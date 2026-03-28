@@ -82,19 +82,36 @@ print(dict)
 #     i+=1
 
 # search for number x in tuple :
+# tup = (1,4,9,16,25,36,49,64,81,100)
+
+# x = int(input("Enter your number : "))
+# i = 1
+
+# while(i<len(tup)):
+#     if(x == tup[i]):
+#         print("element obtained at index : " , i)
+#     i+=1
+
+# print("end of loop")
+
+
+#WAP to print the elements of list using for loop
+
+list = [1,4,9,16,25]
+
+for i in list :
+    print(i)
+
+# search for number x in tuple using for loop
+
 tup = (1,4,9,16,25,36,49,64,81,100)
 
-x = int(input("Enter your number : "))
-i = 1
+x = int(input("enter number you want to search : "))
 
-while(i<len(tup)):
-    if(x == tup[i]):
-        print("element obtained at index : " , i)
-    i+=1
-
-print("end of loop")
-
-
-
-
+for i in tup :
+    if(i == x):
+        print("number found")
+        break
+else:
+    print("entered number is not present")
 
