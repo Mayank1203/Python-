@@ -56,7 +56,7 @@ print(student)
 
 '''
 
-
+'''
 # Set in PYTHON 
 
 collections = {1,2,3,4} # Set must be unique & immutable 
@@ -64,3 +64,24 @@ sett1 = {1,2,2,2} # repeated elements storedonly once so it resolve to {1,2}
 
 print(collections)
 print(sett1)
+'''
+
+collection = set() # empty set 
+print(collection)
+collection.add(1)
+collection.add("Hello")
+collection.add(2)
+collection.add(2)#override the existing value
+print(collection)
+
+collection.remove(2) # remove the element
+print(collection)
+
+collection.pop()#remove a random value
+print(collection)
+
+collection_dup = {1,45,"Hello"}
+print(collection.union(collection_dup))
+
+
+print(collection.intersection(collection_dup))
