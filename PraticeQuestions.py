@@ -22,6 +22,7 @@ print(name.count('e'))
 
 '''
 
+'''
 # WAP to check if a number entered ny the user is odd or even 
 
 num = int(input("enter number to check : "))
@@ -30,3 +31,16 @@ if(num % 2 == 0):
     print("number is even")
 else:
     print("number is odd")
+
+'''
+
+# WAP to store some words in dictionary
+
+dict = {
+    "table" : { "a piece of furniture" , "list of facts & figure"
+    } ,
+
+    "cat" : "a small animal"
+}
+
+print(dict)

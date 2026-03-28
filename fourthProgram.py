@@ -65,6 +65,10 @@ sett1 = {1,2,2,2} # repeated elements storedonly once so it resolve to {1,2}
 print(collections)
 print(sett1)
 '''
+'''
+
+# Methods in set 
+
 
 collection = set() # empty set 
 print(collection)
@@ -85,3 +89,5 @@ print(collection.union(collection_dup))
 
 
 print(collection.intersection(collection_dup))
+
+'''
