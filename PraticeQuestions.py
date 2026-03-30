@@ -142,5 +142,16 @@ print(dict)
 # else:
 #     print(factorial)
 
+# WAF to print the length of list without len() function
+def list_len(list):
+    count = 0
+    for val in list:
+        count += 1
+    return count
+
+list = [1,2,3,4,5,6]
+print(list_len(list))
+
+
 
 
