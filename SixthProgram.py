@@ -28,6 +28,8 @@
 
 '''
 
+
+'''
 # Default parameters
 
 def cal_prob(b,a=2): # here a is default parameter
@@ -35,3 +37,15 @@ def cal_prob(b,a=2): # here a is default parameter
     return a*b 
 
 cal_prob(9)
+'''
+
+# Recursion 
+
+def show(a):
+    if(a==0): # Base Case 
+        return 
+    print(a)
+    show(a-1)
+    print("END")
+
+show(5)
