@@ -154,23 +154,33 @@ print(dict)
 
 # WAF to print elements of list in a single line
 
-list = ["my" , "name", "is","----"]
+# list = ["my" , "name", "is","----"]
 
-def SingleLine(list):
-    for item in list :
-        print(item , end = " ")
+# def SingleLine(list):
+#     for item in list :
+#         print(item , end = " ")
 
-SingleLine(list)
-print()
+# SingleLine(list)
+# print()
 
 # WAF to convert usd to inr
 
-def money_covt(usd):
-    inr = usd * 93.96
-    print(inr)
+# def money_covt(usd):
+#     inr = usd * 93.96
+#     print(inr)
 
-usd = 476
-money_covt(usd)
+# usd = 476
+# money_covt(usd)
+
+# write a recursive function to calculate sum of first n natural numbers
+
+def sum_num(n):
+    if(n==1):
+        return 1
+    else:
+        return n+sum_num(n-1)
+
+print(sum_num(2))
 
 
 
