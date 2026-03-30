@@ -143,14 +143,36 @@ print(dict)
 #     print(factorial)
 
 # WAF to print the length of list without len() function
-def list_len(list):
-    count = 0
-    for val in list:
-        count += 1
-    return count
+# def list_len(list):
+#     count = 0
+#     for val in list:
+#         count += 1
+#     return count
 
-list = [1,2,3,4,5,6]
-print(list_len(list))
+# list = [1,2,3,4,5,6]
+# print(list_len(list))
+
+# WAF to print elements of list in a single line
+
+list = ["my" , "name", "is","----"]
+
+def SingleLine(list):
+    for item in list :
+        print(item , end = " ")
+
+SingleLine(list)
+print()
+
+# WAF to convert usd to inr
+
+def money_covt(usd):
+    inr = usd * 93.96
+    print(inr)
+
+usd = 476
+money_covt(usd)
+
+
 
 
 
