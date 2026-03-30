@@ -41,11 +41,19 @@ cal_prob(9)
 
 # Recursion 
 
-def show(a):
-    if(a==0): # Base Case 
-        return 
-    print(a)
-    show(a-1)
-    print("END")
+# def show(a):
+#     if(a==0): # Base Case 
+#         return 
+#     print(a)
+#     show(a-1)
+#     print("END")
 
-show(5)
+# show(5)
+
+def fact(n):
+    if(n==0 or n==1):
+        return 1
+    else:
+        return n*fact(n-1)
+
+print(fact(4))
