@@ -33,13 +33,19 @@ f.write("\n Tomorrow is the last day")
 f.close()
 '''
 
+'''
 
 # with syntax in file 
 
-with open("demo.txt","r") as f:
-    data = f.read()
-    print(data)
+# with open("demo.txt","r") as f:
+#     data = f.read()
+#     print(data)
 
-with open("demo.txt","w") as f:
-    f.write("new data")
+# with open("demo.txt","w") as f:
+#     f.write("new data")
+'''
+
+import os
+
+os.remove("demo.txt")
 
