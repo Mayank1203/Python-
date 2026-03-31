@@ -8,29 +8,29 @@
 # print(car1.name)
 # print(car1.brand)
 '''
+'''
+# class Students :
+#     # def __init__(self):
+#     #     print("default connstructor")
 
-class Students :
-    # def __init__(self):
-    #     print("default connstructor")
+#     college_name = "BSDK College" # Class Attribute
 
-    college_name = "BSDK College" # Class Attribute
-
-    @staticmethod #decorator => makes static
-    def hello():
-        print("Hello")
+#     @staticmethod #decorator => makes static
+#     def hello():
+#         print("Hello")
 
 
 
-    def __init__(self , name , marks):
-        self.name = name # object Attribute 
-        self.marks = marks
-        print("parameterised constructor")
+#     def __init__(self , name , marks):
+#         self.name = name # object Attribute 
+#         self.marks = marks
+#         print("parameterised constructor")
 
-    def welcome(self): # Method
-        print("welcome" , self.name)
+#     def welcome(self): # Method
+#         print("welcome" , self.name)
 
-    def getMarks(self): # Method
-        return self.marks 
+#     def getMarks(self): # Method
+#         return self.marks 
 
 # s1 = Students("karan" , 93)
 # print(s1.name , s1.marks)
@@ -42,4 +42,25 @@ class Students :
 # s2.welcome()
 # print(s2.getMarks())
 
-s2.hello()
+# s2.hello()
+
+'''
+
+# Abstraction 
+class Car:
+
+    def __init__(self):
+        self.acc=False
+        self.clutch = False
+        self.breake = False
+
+    def start(self):
+        self.clutch = True
+        self.acc = True 
+        print("Car Started")
+
+car = Car()
+car.start() # calling fuction but don't know what done inside
+
+
+
