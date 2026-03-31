@@ -12,12 +12,16 @@
 class Students :
     # def __init__(self):
     #     print("default connstructor")
+    college_name = "BSDK College" # Class Attribute
 
     def __init__(self , name , marks):
-        self.name = name
+        self.name = name # object Attribute 
         self.marks = marks
         print("parameterised constructor")
 
 s1 = Students("karan" , 93)
 print(s1.name , s1.marks)
+print(s1.college_name)
+
+# Object Attribute have higher presidence as compare to Class Attribute
 
