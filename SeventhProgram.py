@@ -44,8 +44,8 @@ f.close()
 # with open("demo.txt","w") as f:
 #     f.write("new data")
 '''
-
+'''
 import os
 
 os.remove("demo.txt")
-
+'''
