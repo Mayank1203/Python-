@@ -183,6 +183,24 @@ print(dict)
 # print(sum_num(2))
 
 
+class Std:
+
+    def __init__(self , name , marks):
+        self.name = name
+        self.marks = marks
+
+    def avg(self):
+        sum = 0
+        count = 0
+        for val in self.marks:
+            sum += val
+            count+=1
+            
+        avg_marks = sum / count
+        return avg_marks
+
+s1 = Std("tony" , [89,99,98])
+print("hi" , s1.name,"your avg score is:", s1.avg())
 
 
 
