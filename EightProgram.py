@@ -12,7 +12,14 @@
 class Students :
     # def __init__(self):
     #     print("default connstructor")
+
     college_name = "BSDK College" # Class Attribute
+
+    @staticmethod #decorator => makes static
+    def hello():
+        print("Hello")
+
+
 
     def __init__(self , name , marks):
         self.name = name # object Attribute 
@@ -31,6 +38,8 @@ class Students :
 
 # Object Attribute have higher presidence as compare to Class Attribute
 
-s2 = Students("maya",89)
-s2.welcome()
-print(s2.getMarks())
+# s2 = Students("maya",89)
+# s2.welcome()
+# print(s2.getMarks())
+
+s2.hello()
